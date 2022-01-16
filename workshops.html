@@ -29,15 +29,11 @@
         
         <!-- Main -->
 		   <div id="main">
-         <!-- One -->
-					<section id="one">
-						<header class="major">
-							<section>
 							
             <!-- One -->
-					<section id="two">
+					<section id="one">
 						<section>
-							<h1>Laser cutting workshop</h1>
+							<h1>1) Laser cutting workshop</h1>
 							<p>Using the <b>CorelDRAW</b> software to create my design to be produce. I inspired my design from sheikh <strong>Zayed</strong> poem. This is the <i>created initial design</i>:<a class="image fit"><img src="images/detailed%20logo.png" alt="" /></a> 
 							Setup used before cutting the part; right click on picture and select detailed logo; then select image and delete the white background.Also, the last thing of the setup to check is color the outer lines in red which means to be cutted, and black color for engraving which will be for the image. <a class="image fit"><img src="images/keychain%20desing.png" alt="" /></a> 
 							I used a diffrenet image and then used the laser cutting machine to produce the part (using MDF wood sheet) auto setting in the software. The final cutted part is shown in this picture:<a class="image fit"><img src="images/final%20part.jpg" alt="" /></a>
@@ -49,16 +45,89 @@
 								
 							
 			 <!-- Two -->
-					<section id="three">
+					<section id="two">
 						<section>
-							<h1><b>3D printing workshop</b></h1>
+							<h1><b>2) 3D printing workshop</b></h1>
 							Learned how to load the material filement into the printer.<a class="image fit"><img src="images/material.jpeg" alt="" /></a>  
-							Also, I learned how to make the manual callibration for the built plate. Calibrating the built plate of the FDM utlimaker printer. Manually, by placing an A4 paper and use the bolts which underneath and holds the built plate to raise or lower the plate, to make sure it is 1mm gap between nozzle and build plate.
+							<p>Also, I learned how to make the manual callibration for the built plate. Calibrating the built plate of the FDM utlimaker printer. Manually, by placing an A4 paper and use the bolts which underneath and holds the built plate to raise or lower the plate, to make sure it is 1mm gap between nozzle and build plate.</p>
 							<h1>Group assignment: test the design rules for your 3D printer</h1><p>Testing the design rules on the Ultimaker printer. I choosed the surface finish model as a test which can be printed without using support material.</p>
-							<p>Finally, this is the surface finish model file <a href="http://academy.cba.mit.edu/classes/scanning_printing/finish.stl">stl</a>. Here is a picture of the model while it's being printed:<a class="image fit"><img src="images/3d%20part.jpeg" alt="" /></a><a class="image fit"><img src="images/surface%20finish%20part.jpeg" alt="" /></a></p>
+							<p>Finally, this is the surface finish model file <a href="http://academy.cba.mit.edu/classes/scanning_printing/finish.stl">stl</a>. Here is a picture of the model while it's being printed:<a class="image fit"><img src="images/3d%20part.jpeg" alt="" /></a><a class="avatar image"><img src="images/surface%20finish%20part.jpeg" alt="" /></a></p>
+							<hr />
+							
+							
+			 <!-- Three -->
+					<section id="Three">
+						<header class="major">
+							<section>
+							<h1><b>3) Fusion 360 workshop</b></h1>	
 							<hr />
 						
-						
+								
+			 <!-- Four -->
+					<section id="Four">
+						<header class="major">
+							<section>
+							<h1><b>4) PCB fabrication workshop</b></h1>
+							<a href="http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/index.html">Reference</a> <br/>
+							Using the PCB pictures from the reference above to create process file .rml
+							<p>Used files:<br/>
+							<a href="http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/fts_mini_traces.png">Traces</a>
+							<br/>
+							<a href="">Outline</a></p>
+							
+							<h4>4.1) PCB Design and preparing</h4>
+						    Using the <a href="http://fabmodules.org/">Fabmodules</a> to convert image to G-code for the milling process.<br/>
+							Steps:
+								<center><h3>**Traces**</h3></center>
+							<a class="image fit"><img src="images/traces.png"/></a>
+							<a class="image fit"><img src="images/traces-process-file.png"></a>
+							    <center><h3>**Outline**</h3>
+							<a class="image fit"><img src="images/outline.png"/></a>
+								<a class="image fit"><img src="images/cut.png"></a></center>
+							
+	
+
+ <!-- Five -->
+					<section id="Five">
+						<header class="major">
+							<section>
+							<h4><b>4.2) PCB fabrication</b></h4>
+							Used machine: monoFab<br/>
+							Used software: VPanel<br/> 
+							Process: Milling<br/>
+							Mill bit used: 1/64 for traces; 1/32 for outline<br/>
+								
+								
+							<center><h3>**Workplace**</h3></center>
+							<a class="image fit"><img src="images/workplace.jpg"/></a>
+							<center><h3>**Setup - Leveling**</h3></center>
+							<a class="image fit"><img src="images/leveling.png"/></a>
+							<center><h3>**Milled PCB traces**</h3></center>
+							<a class="image fit"><img src="images/milled%20pcb%20traces%20.jpg"/></a>
+							<center><h3>**Attach and Replace Mill bit**</h3></center>
+							<a class="image fit"><img src="images/mill%20bits.png"></a>
+							
+							<h1><b>4.3) PCB Assembly</b></h1>
+							<center><h3>**Components**</h3></center>
+							1x ATtiny45 or ATtiny85<br/>
+							2x 1kΩ resistors<br/>
+							2x 499Ω resistors<br/>
+							2x 49Ω resistors<br/>
+							2x 3.3v zener diodes<br/>
+							1x red LED<br/>
+							1x green LED<br/>
+							1x 100nF capacitor<br/>
+							1x 2x3 pin header<br/>
+							<br/>
+							<a class="image fit"><img src="images/components.jpg"/></a>
+							<center><h3>**Soldering area**</h3>
+							<a class="image fit"><img src="images/soldering%20area.png"></a></center>
+							I start soldering the parts to the PCB, using the <a href="http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/schematic.png">schematic</a> and the board image below as a reference for component values and placement. Start with the most difficult parts (the ATtiny45) first, so I can have the most access. I stuggled with soldering at firt. But with Eng. Hashem help I did install the microcontroller in it's place successfully.
+							<center><h3>**PCB board**</h3>
+							<a class="image fit"><img src="images/pcb_schematic.png"></a></center>
+							Note: I installed R1, R2, C1, and U1. I'll try to finish the remaining components.
+							<hr/>
+	  						
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="inner">
